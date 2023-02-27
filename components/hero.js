@@ -1,8 +1,9 @@
-export default function Header() {
+export default function Header({ title, subtitle, imageOn = false }) {
   return (
     <div>
-      <h1>CUBE</h1>
-      <p>Output Website</p>
+      <h1>{title}</h1>
+      <p>{subtitle}</p>
+      {imageOn && <figure> [画像] </figure>}
     </div>
   )
 }
