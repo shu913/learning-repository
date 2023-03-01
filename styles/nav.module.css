@@ -1,0 +1,8 @@
+.list {
+  display: flex;
+  gap: 2em;
+}
+
+/* .list .menuLinkFeatures:hover {
+  color: var(--accent);
+} */
