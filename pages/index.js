@@ -1,7 +1,11 @@
+import Hero from 'components/hero'
+
 export default function Home() {
   return (
-    <h1>
-      Shuji Watanabe
-    </h1>
+    <Hero
+      title="Shuji Watanabe"
+      subtitle="Output Website"
+      imageOn
+    />
   )
 }

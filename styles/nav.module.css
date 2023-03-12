@@ -3,6 +3,24 @@
   gap: 2em;
 }
 
-/* .list .menuLinkFeatures:hover {
+/* .list a:hover {
   color: var(--accent);
+} */
+
+/* ホバーできる環境(デスクトップ環境) */
+/* @media (hover: hover) {
+  .list a:hover {
+    color: var(--accent);
+  }
+} */
+
+/* ホバーできない環境(モバイル環境) */
+/* @media (hover: none) {
+  .list a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .list a:active {
+    color: var(--accent);
+  }
 } */
